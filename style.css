@@ -1,3 +1,55 @@
+@font-face {
+    font-family: norse-font;
+    src: url(./Norse-Bold.otf);
+}
+
+
+
 h1 {
-    color:red
+    color:red;
+    font-family: norse-font;
+}
+
+.container{
+    display:flex;
+}
+
+.left{
+    display: flex;
+    width: 40vw;
+    height:100vh;
+    flex-direction: column;
+    position:relative;
+}
+
+.logo-section{
+    background-color: black;
+    position: absolute;
+    opacity: 0.6;
+    font-family:norse-font;
+    top: 8rem;
+    text-align: center;
+    font-size: 5em;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    justify-content: center;
+}
+
+.small-logo{
+    height:10vh;
+    filter:brightness(0) invert(1);
+}
+
+.right{
+    display:flex;
+    width: 60vw;
+    height:100vh
+}
+
+.background{
+    width:100%;
+
 }
