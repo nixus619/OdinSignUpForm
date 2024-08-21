@@ -46,7 +46,8 @@ h1 {
 .right{
     display:flex;
     width: 60vw;
-    height:100vh
+    height:100vh;
+    background-color: gainsboro;
 }
 
 .background{
