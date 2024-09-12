@@ -57,6 +57,9 @@ h1 {
     /*background-color: white; */
     flex-direction: column;
     font-family: inter;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 400px;
 }
 
 .top-section{
@@ -65,12 +68,12 @@ h1 {
     justify-content: center;
     flex-direction: column;
     /*align-items: flex-end;
-    justify-content: space-around;*/
-    gap: 20px;
+    justify-content: space-around;
+    gap: 20px; */
     font-weight: bolder;
     font-size: larger;
-    padding-left: 20px;
-    padding-right: 400px;
+    /* padding-left: 20px;
+    padding-right: 400px; */
 
 }
 
