@@ -19,6 +19,7 @@ h1 {
     display:flex;
     height:100%;
     width:100%;
+    background-color: slategrey;
 }
 
 .left{
@@ -59,7 +60,7 @@ h1 {
     font-family: inter;
     gap: 20px;
     padding-left: 20px;
-    padding-right: 400px;
+    padding-right: 200px;
 }
 
 .top-section{
@@ -71,7 +72,7 @@ h1 {
     justify-content: space-around;
     gap: 20px; */
     font-weight: bolder;
-    font-size: larger;
+    font-size: xx-large;
     /* padding-left: 20px;
     padding-right: 400px; */
 
@@ -79,12 +80,14 @@ h1 {
 
 .form-section{
     height: 40vh;
-    background-color: white;
+    /*background-color: white;*/
     box-shadow: 0 4px 2px -2px gray;
 }
 
 .bottom-section{
     height: 30vh;
+    font-size: xx-large;
+
 }
 
 .background{
