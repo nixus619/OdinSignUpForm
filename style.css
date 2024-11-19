@@ -125,5 +125,18 @@ a{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    justify-content: space-between;
+    /*justify-content: space-between; */
 }
+
+label{
+    display:flex;
+    flex-direction: column;
+    font-size: smaller;
+}
+
+.inputPair {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
