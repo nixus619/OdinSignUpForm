@@ -59,8 +59,8 @@ h1 {
     flex-direction: column;
     font-family: inter;
     gap: 20px;
-    padding-left: 20px;
-    padding-right: 200px;
+    /* padding-left: 20px; 
+    padding-right: 200px; */
 }
 
 .top-section{
@@ -81,8 +81,10 @@ h1 {
 
 .form-section{
     height: 40vh;
-    /*background-color: white;*/
-    box-shadow: 0 4px 2px -2px gray;
+    /*background-color: turquoise;
+    box-shadow: 0 4px 2px -2px gray; */
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+
 }
 
 .bottom-section{
@@ -126,6 +128,7 @@ a{
     flex-wrap: wrap;
     gap: 10px;
     /*justify-content: space-between; */
+    padding-right: 200px;
 }
 
 label{
@@ -140,3 +143,15 @@ label{
     margin-right: 40px;
     margin-left: 40px;
   }
+
+input{
+    /*border-style: solid;
+    border-color: #E5E7EB; */
+    border: 2px solid #E5E7EB;
+    border-radius: 4px;
+}
+
+input:focus{
+    border: 2px solid rgb(41, 41, 184);
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
