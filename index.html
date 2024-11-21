@@ -17,38 +17,39 @@
     </div>
     <div class="right">
         <div class="top-section"> <div>This is a fan page for the coolest big bro in the world Charlie. He's handsome, cool, and an all round good guy. Sign up now to get started. </div>
-        <div> You <i> know </i> you want to. </div></div>
+        <div class="top-section-bottom"> You <i> know </i> you want to. </div></div>
         <div class="form-section">
-            Let's do this!
-            <form class="form_items" action="example.com/path" method="post">
+            <div class="before-form"> Let's do this! </div>
+            <form class="form_items" action="#" method="get">
                 <div class="inputPair">
                     <label for="first_name"> First Name: </label>
-                    <input type="text" id="first_name" placeholder="Nick" name="first_name"> 
+                    <input type="text" id="first_name" placeholder="Nick" name="first_name" required> 
                 </div>
                 <div class="inputPair">
                     <label for="last_name"> Last Name:  </label>
-                    <input type="text" id="last_name" placeholder="Cedor" name="last_name"> 
+                    <input type="text" id="last_name" placeholder="Cedor" name="last_name" > 
                 </div>
                 <div class="inputPair">
                   <label for="user_email"> Email Address:  </label>
-                  <input type="email" id="user_email" placeholder="Nickdcedor@gmail.com" name="user_email">
+                  <input type="email" id="user_email" placeholder="Nickdcedor@gmail.com" name="user_email" required>
                 </div> 
                 <div class="inputPair">
                     <label for="phone_number">Phone Number: </label>
-                    <input type="tel" id="phone_number" placeholder="1234567890" name="phone_number"> 
+                    <input type="tel" id="phone_number" placeholder="1234567890" name="phone_number" minlength="9" maxlength="9"> 
                 </div>
                 <div class="inputPair">
                     <label for="user_password"> Password: </label>
-                    <input type="password" id="user_password" name="password"> 
+                    <input type="password" id="user_password" name="password" required> 
                 </div>
                 <div class="inputPair">
                     <label for="confirm_password"> Confirm Password: </label>
-                    <input type="password" id="confirm_password" name="confirm_password">
+                    <input type="password" id="confirm_password" name="confirm_password" required>
                 </div>
-            </form>
+            
         </div>
         <div class = "bottom-section">
-            <button class="button1"> Create account </button>
+            <button type="submit" class="button1"> Create account </button>
+        </form>
             <div> Already have an account? <a> Log in! </a> </div>
         </div>
     </div>
